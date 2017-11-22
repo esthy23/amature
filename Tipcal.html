@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,minimum-scale=1, minimal-ui">
+    <!--normalize-->
+    <link rel ="stylesheet" type="text/css" href="normalize.css">  
+    <link rel="stylesheet" type="text/css" href="TipCal.css">
+    <title>Tip Calculatotr</title>
+  </head>
+  <body>
+
+    <!-- header row-->
+    <div class="container">
+      <h1> Tip Calculator </h1>
+
+      <!-- main calculator -->
+      <div class="calculator">
+        <form>
+
+          <!--input amount row-->
+          <label>
+            How much was your bill?<br>
+            $<input type ="text" id ="billAmount">
+          </label>
+
+           <!--selection of services row-->
+          <label>
+            How was your service?<br>
+            <select id="serviceQuality">
+              <option value="0.05">5% - Terrible</option>
+              <option value="0.1">10% - Bad</option>
+              <option value="0.15">15% - Ok</option>
+              <option value="0.2">20% - Good</option>
+              <option value="0.3">30% - Excellent</option>
+            </select>
+          </label>
+
+          <!--input of people sharing the bill-->
+          <label>
+            How many people are sharing the bill?<br>
+            <input type ="text" id ="totalPeople">People
+          </label>
+
+          <!-- button row-->
+          <button type="button" id="calculate">CALCULATE</button>
+
+       </form> <!--end of calculator form-->
+
+     </div> <!-- end of calculator div-->
+
+     <!--answer row-->
+     <div id="totalTip">
+      <p class="bef"> Tip Amount </p>
+       <sup>$</sup><span id="tip">0.00</span>
+       <small id="each">each</small>
+     </div> <!-- end of ans div-->
+
+   </div> <!-- end of the total container-->
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

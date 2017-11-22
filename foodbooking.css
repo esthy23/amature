@@ -1,0 +1,28 @@
+.navbar-inverse{
+  background:#FF4500;
+}
+body{
+  background-image:url(68814205-food-wallpapers.jpg);
+  background-repeat: no-repeat;
+  opacity:10;
+  background-size:cover;
+
+}
+.head1{
+  font-size:60px;
+}
+.p1{
+  font-size: 40px;
+}
+.buo{
+  padding-top:50px;
+}
+.ban{
+  margin-top: 150px;
+}
+.liv{
+  background-color: black;
+  padding: 15px;
+  margin-top: 90px;;
+
+}
